@@ -7,7 +7,7 @@ This repository is for our IEEE Transactions on Visualization and Computer Graph
 ### Usage
 #### Try our previously-trained network:
 (1) Step 1: prepare network input <br>
-For your convenience, we provided the three noisy meshes shown in Figure 8 of our paper. You can download them [here]. Since our DNF-Net takes patches as network inputs, we directly provide the patches of each mesh; see the three h5 files in `network-inputs` folder. You can directly use them as network inputs.
+For your convenience, we provided the three noisy meshes shown in Figure 8 of our paper. You can download them [here](https://drive.google.com/file/d/1Be2FXLTjfJcX-E0fjymx6--fFe1AxO9f/view?usp=sharing). Since our DNF-Net takes patches as network inputs, we directly provide the patches of each mesh; see the three h5 files in `network-inputs` folder. You can directly use them as network inputs.
 
 Or you can also use your own noisy meshes. You need to cut the noisy mesh into patches. Please download the C++ code [here](https://drive.google.com/file/d/1b3XOnDw-8zuw-QII96qYUh6aHSYuvEvS/view?usp=sharing). Unzip the file, inside the `Meshviewer` folder, open `meshviewer.cpp`, and you will see the main function. In the `prepareTestData()` function, you need to specify the path and name of your noisy meshes. Then the function will generate patches per face automatically. Finally, use the code `patch_to_h5.py` inside the `code` folder (see this GitHub page) to generate h5 file. <br>
 
