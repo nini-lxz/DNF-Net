@@ -18,7 +18,7 @@ Feed the h5 file to our trained network for testing. The python code is provided
 Still use the C++ code downloaded in Step 1 to reconstruct the denoised mesh from the denoised facet normals. In the main function, there is a function called `generateDenoisedMesh()`. You need to specify the noisy mesh and the vertex iteration number. You can also give the path of ground-truth mesh to calculate the denoising error. For our provided three meshes, we have specified the corresponding recommended vertex iteration number.
 
 #### Re-train our network:
-If you want to re-train our network, we provide the synthetic training dataset [here]. The python code is provided in the `code` folder --> `train.py`.
+If you want to re-train our network, we provide the synthetic training dataset [here](https://drive.google.com/file/d/1BtbySgfPODAjWn8GdWr7lBzZ48bu9kUC/view?usp=sharing). The python code is provided in the `code` folder --> `train.py`.
 
 ### Questions
 Please constact 'lixianzhi123@gmail.com'
