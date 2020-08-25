@@ -9,6 +9,8 @@ This repository is for our IEEE Transactions on Visualization and Computer Graph
 #### Environment Requirements
 - Python 2.7
 - Tensorflow 1.9.0
+- Ubuntu 16.04.6
+- CUDA 10.2
 
 #### Try our previously-trained network:
 (1) Step 1: prepare network input <br>
