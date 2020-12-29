@@ -1,0 +1,2 @@
+proj51
+Namespace(batch_size=8, decay_rate=0.9, decay_step=500000, gpu=0, learning_rate=0.002, log_dir='log/log_synthetic', max_epoch=401, model='model', momentum=0.9, neighbor_size=50, optimizer='adam', patch_size=800, restore=False)
