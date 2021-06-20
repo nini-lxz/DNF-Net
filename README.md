@@ -28,5 +28,5 @@ Still use the C++ code downloaded in Step 1 to reconstruct the denoised mesh fro
 If you want to re-train our network, we provide the synthetic training dataset [here](https://gocuhk-my.sharepoint.com/:u:/g/personal/xianzhili_cuhk_edu_hk/EU7bd6wcfjZAjfoDB4IDXVkBbFn0Nd8Kv9vx431mznZTNg?e=FTX9S5). The python code is provided in the `code` folder --> `train.py`.
 
 ### Questions
-Please constact 'lixianzhi123@gmail.com'
+Please contact 'lixianzhi123@gmail.com'
 
